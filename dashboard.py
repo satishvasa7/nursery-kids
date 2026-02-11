@@ -78,6 +78,10 @@ template = """
         .item:hover {
             transform: scale(1.1);
         }
+        .item-image {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
     </style>
     <script>
         function showTab(tabId) {
@@ -128,32 +132,32 @@ template = """
     <div id="alphabets" class="content">
         <h2 style="text-align: center; color: white; font-size: 2em;">Alphabets A to Z</h2>
         <div class="items-grid">
-            <div class="item" style="background-color: #FF6B6B;">A<br><small>Apple</small></div>
-            <div class="item" style="background-color: #FF8E53;">B<br><small>Ball</small></div>
-            <div class="item" style="background-color: #FFC93C;">C<br><small>Cat</small></div>
-            <div class="item" style="background-color: #95E1D3;">D<br><small>Dog</small></div>
-            <div class="item" style="background-color: #64B5F6;">E<br><small>Elephant</small></div>
-            <div class="item" style="background-color: #9575CD;">F<br><small>Fish</small></div>
-            <div class="item" style="background-color: #F06292;">G<br><small>Goat</small></div>
-            <div class="item" style="background-color: #00BCD4;">H<br><small>Hat</small></div>
-            <div class="item" style="background-color: #81C784;">I<br><small>Ice</small></div>
-            <div class="item" style="background-color: #FFB74D;">J<br><small>Jug</small></div>
-            <div class="item" style="background-color: #E57373;">K<br><small>Kite</small></div>
-            <div class="item" style="background-color: #BA68C8;">L<br><small>Lion</small></div>
-            <div class="item" style="background-color: #26A69A;">M<br><small>Monkey</small></div>
-            <div class="item" style="background-color: #FF7043;">N<br><small>Nest</small></div>
-            <div class="item" style="background-color: #5C6BC0;">O<br><small>Orange</small></div>
-            <div class="item" style="background-color: #FFA726;">P<br><small>Parrot</small></div>
-            <div class="item" style="background-color: #AB47BC;">Q<br><small>Queen</small></div>
-            <div class="item" style="background-color: #29B6F6;">R<br><small>Rabbit</small></div>
-            <div class="item" style="background-color: #66BB6A;">S<br><small>Sun</small></div>
-            <div class="item" style="background-color: #EC407A;">T<br><small>Tiger</small></div>
-            <div class="item" style="background-color: #78909C;">U<br><small>Umbrella</small></div>
-            <div class="item" style="background-color: #A1887F;">V<br><small>Van</small></div>
-            <div class="item" style="background-color: #FFC93C;">W<br><small>Watch</small></div>
-            <div class="item" style="background-color: #FFD54F;">X<br><small>Xylophone</small></div>
-            <div class="item" style="background-color: #BDBB49;">Y<br><small>Yak</small></div>
-            <div class="item" style="background-color: #8D6E63;">Z<br><small>Zebra</small></div>
+            <div class="item" style="background-color: #FF6B6B;"><div class="item-image">🍎</div>A<br><small>Apple</small></div>
+            <div class="item" style="background-color: #FF8E53;"><div class="item-image">🔴</div>B<br><small>Ball</small></div>
+            <div class="item" style="background-color: #FFC93C;"><div class="item-image">🐱</div>C<br><small>Cat</small></div>
+            <div class="item" style="background-color: #95E1D3;"><div class="item-image">🐕</div>D<br><small>Dog</small></div>
+            <div class="item" style="background-color: #64B5F6;"><div class="item-image">🐘</div>E<br><small>Elephant</small></div>
+            <div class="item" style="background-color: #9575CD;"><div class="item-image">🐠</div>F<br><small>Fish</small></div>
+            <div class="item" style="background-color: #F06292;"><div class="item-image">🐐</div>G<br><small>Goat</small></div>
+            <div class="item" style="background-color: #00BCD4;"><div class="item-image">🎩</div>H<br><small>Hat</small></div>
+            <div class="item" style="background-color: #81C784;"><div class="item-image">🧊</div>I<br><small>Ice</small></div>
+            <div class="item" style="background-color: #FFB74D;"><div class="item-image">🫖</div>J<br><small>Jug</small></div>
+            <div class="item" style="background-color: #E57373;"><div class="item-image">🪁</div>K<br><small>Kite</small></div>
+            <div class="item" style="background-color: #BA68C8;"><div class="item-image">🦁</div>L<br><small>Lion</small></div>
+            <div class="item" style="background-color: #26A69A;"><div class="item-image">🐵</div>M<br><small>Monkey</small></div>
+            <div class="item" style="background-color: #FF7043;"><div class="item-image">🪺</div>N<br><small>Nest</small></div>
+            <div class="item" style="background-color: #5C6BC0;"><div class="item-image">🍊</div>O<br><small>Orange</small></div>
+            <div class="item" style="background-color: #FFA726;"><div class="item-image">🦜</div>P<br><small>Parrot</small></div>
+            <div class="item" style="background-color: #AB47BC;"><div class="item-image">👑</div>Q<br><small>Queen</small></div>
+            <div class="item" style="background-color: #29B6F6;"><div class="item-image">🐰</div>R<br><small>Rabbit</small></div>
+            <div class="item" style="background-color: #66BB6A;"><div class="item-image">☀️</div>S<br><small>Sun</small></div>
+            <div class="item" style="background-color: #EC407A;"><div class="item-image">🐯</div>T<br><small>Tiger</small></div>
+            <div class="item" style="background-color: #78909C;"><div class="item-image">☔</div>U<br><small>Umbrella</small></div>
+            <div class="item" style="background-color: #A1887F;"><div class="item-image">🚐</div>V<br><small>Van</small></div>
+            <div class="item" style="background-color: #FFC93C;"><div class="item-image">⌚</div>W<br><small>Watch</small></div>
+            <div class="item" style="background-color: #FFD54F;"><div class="item-image">🎺</div>X<br><small>Xylophone</small></div>
+            <div class="item" style="background-color: #BDBB49;"><div class="item-image">🐂</div>Y<br><small>Yak</small></div>
+            <div class="item" style="background-color: #8D6E63;"><div class="item-image">🦓</div>Z<br><small>Zebra</small></div>
         </div>
     </div>
 </body>
@@ -165,5 +169,5 @@ def home():
     return render_template_string(template)
 
 if __name__ == "__main__":
-    # Run on port 80, accessible externally
-    app.run(host="0.0.0.0", port=80)
+    # Run on port 4200, accessible externally
+    app.run(host="0.0.0.0", port=4200)
